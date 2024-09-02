@@ -19,36 +19,12 @@ public abstract class Insecto extends SerVivo {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public int getAlas() {
         return alas;
     }
 
-    public void setAlas(int alas) {
-        this.alas = alas;
-    }
-
     public int getPatas() {
         return patas;
-    }
-
-    public void setPatas(int patas) {
-        this.patas = patas;
-    }
-
-    public String getComida() {
-        return comida;
-    }
-
-    public void setComida(String comida) {
-        this.comida = comida;
-    }
-
-    public Boolean getCarronia() {
-        return carronia;
     }
 
     public void alimentarse() {
