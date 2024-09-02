@@ -36,8 +36,3 @@ Este es un proyecto Maven para PlanetaBies basado en la vida animal que este pla
 
     ```bash
     mvn package
-
-5. Desplegar el artefacto en GitHub Packages
-
-    ```bash
-    mvn deploy
