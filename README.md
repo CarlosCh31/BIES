@@ -1,18 +1,43 @@
 # Proyecto Planeta BIES
 
-Este proyecto se basa en el planeta BIES y todos los animales que viven en este.
 Autores:
 Carlos Chavarria
 Amanda Esquivel
 Hazel Molina
 Maria Hernandez
 
+Este es un proyecto Maven para PlanetaBies basado en la vida animal que este planeta tiene. El proyecto está configurado para compilar, testear, generar Javadoc, empaquetar en un JAR, y desplegar en GitHub Packages utilizando Maven.
+
+
 ## Requisitos
 
-- JDK 21
-- Maven 3.8.1
+- **Java Development Kit (JDK) 21 o superior**
+- **Maven 3.6.3 o superior**
+- **Git (para autenticación en GitHub Packages)**
 
 ## Instrucciones para Compilar
 
-mvn clean install
-mvn exec:java -Dexec.mainClass="una.ac.Main"
+1. Compila el proyecto utilizando Maven
+
+    ```bash
+    mvn clean compile
+
+2. Ejecutar las pruebas
+
+    ```bash
+    mvn test
+
+3. Generar la documentación Javadoc
+
+    ```bash
+    mvn javadoc:javadoc
+
+4. Empaquetar el proyecto en un JAR
+
+    ```bash
+    mvn package
+
+5. Desplegar el artefacto en GitHub Packages
+
+    ```bash
+    mvn deploy
